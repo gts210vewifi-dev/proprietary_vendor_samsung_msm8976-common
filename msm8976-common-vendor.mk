@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm8976-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/msm8976-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/msm8976-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/samsung/msm8976-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/msm8976-common/proprietary/etc/camera/msm8976_camera_tabs2.xml:system/etc/camera/msm8976_camera_tabs2.xml \
     vendor/samsung/msm8976-common/proprietary/etc/camera/s5k4h5yc_dw9807_chromatix.xml:system/etc/camera/s5k4h5yc_dw9807_chromatix.xml \
@@ -83,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/msm8976-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/samsung/msm8976-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/samsung/msm8976-common/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
     vendor/samsung/msm8976-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/msm8976-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/msm8976-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
