@@ -19,16 +19,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/msm8976-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/samsung/msm8976-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/samsung/msm8976-common/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/samsung/msm8976-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/msm8976-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/msm8976-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/samsung/msm8976-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/msm8976-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/msm8976-common/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/samsung/msm8976-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/msm8976-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/msm8976-common/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/msm8976-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm8976-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/msm8976-common/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -84,8 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/msm8976-common/proprietary/etc/P08QL_s5k4h5yc_module_info.xml:system/etc/P08QL_s5k4h5yc_module_info.xml \
     vendor/samsung/msm8976-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/samsung/msm8976-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/samsung/msm8976-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/samsung/msm8976-common/proprietary/etc/Q08QL_s5k4h5yc_module_info.xml:system/etc/Q08QL_s5k4h5yc_module_info.xml \
     vendor/samsung/msm8976-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/msm8976-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
@@ -112,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/msm8976-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/msm8976-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/samsung/msm8976-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/samsung/msm8976-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/msm8976-common/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
@@ -141,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -167,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
@@ -199,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libyasalgo.so:system/vendor/lib64/libyasalgo.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -430,7 +420,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
@@ -450,6 +439,4 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
-    TimeService \
-    qcnvitems \
-    qcrilhook
+    TimeService
