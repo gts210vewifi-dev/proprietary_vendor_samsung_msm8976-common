@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm8976-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/msm8976-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/msm8976-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/samsung/msm8976-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/msm8976-common/proprietary/etc/camera/msm8976_camera_tabs2.xml:system/etc/camera/msm8976_camera_tabs2.xml \
     vendor/samsung/msm8976-common/proprietary/etc/camera/s5k4h5yc_dw9807_chromatix.xml:system/etc/camera/s5k4h5yc_dw9807_chromatix.xml \
