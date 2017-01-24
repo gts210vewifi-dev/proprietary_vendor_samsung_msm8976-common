@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/bdwlan30_R01.bin:system/etc/firmware/bdwlan30_R01.bin \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/btnv32.bin:system/etc/firmware/btnv32.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
@@ -62,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/utfbd30_R01.bin:system/etc/firmware/utfbd30_R01.bin \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/utfbd32.bin:system/etc/firmware/utfbd32.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
